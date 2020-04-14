@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d092e7e-3eca-4f76-b3e5-5556985638db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/deep/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/deep/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/deep/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/deep/Registry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/AboutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/CommentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/ContactPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/ContractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/PostPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/Website.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/WebsiteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/contactPage/WebsiteType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/everydayExample/CalenderExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prototype/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prototype/shallow/Record.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prototype/shallow/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prototype/shallow/Statement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -79,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586786651850</updated>
       <workItem from="1586786654681" duration="4269000" />
-      <workItem from="1586836902492" duration="4316000" />
+      <workItem from="1586836902492" duration="7332000" />
     </task>
     <task id="LOCAL-00001" summary="builder pattern">
       <created>1586836937954</created>
@@ -95,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586839785275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="deep prototype">
+      <created>1586844026305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586844026305</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,17 +120,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="builder pattern" />
     <MESSAGE value="shallow prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="shallow prototype" />
+    <MESSAGE value="deep prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="deep prototype" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="144" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1586841756931">
+    <state x="144" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1586846871228">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="144" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1586841756931" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586839784645">
+    <state x="144" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1586846871228" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586844025585">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586839784645" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586844025585" />
     <state x="649" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1586836902512">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

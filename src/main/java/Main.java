@@ -1,5 +1,8 @@
 import builder.Builder;
 import builder.LunchOrder;
+import factoryMethod.contactPage.Website;
+import factoryMethod.contactPage.WebsiteFactory;
+import factoryMethod.contactPage.WebsiteType;
 import prototype.shallow.Record;
 import prototype.deep.Movie;
 import prototype.deep.Registry;
@@ -56,6 +59,13 @@ public class Main {
         System.out.println(anotherMovie.getRuntime());
         System.out.println(anotherMovie.getTitle());
         System.out.println(anotherMovie.getUrl());
+    }
+
+    private static void factoryMethodTest(){
+        Website website = WebsiteFactory.getWebsite(WebsiteType.BLOG);
+        System.out.println(website.getPages());
+        website = WebsiteFactory.getWebsite(WebsiteType.SHOP);
+        System.out.println(website.getPages());
     }
 
     public static void main (String[] args){
