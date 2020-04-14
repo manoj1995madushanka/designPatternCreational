@@ -1,7 +1,5 @@
 package prototype.shallow;
 
-import prototype.Record;
-
 import java.util.List;
 
 public class Statement implements Cloneable{

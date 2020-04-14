@@ -1,6 +1,8 @@
 import builder.Builder;
 import builder.LunchOrder;
-import prototype.Record;
+import prototype.shallow.Record;
+import prototype.deep.Movie;
+import prototype.deep.Registry;
 import prototype.shallow.Statement;
 
 import java.util.ArrayList;
@@ -35,6 +37,25 @@ public class Main {
         System.out.println(anotherStatement.getSql());
         System.out.println(anotherStatement.getParameters());
         System.out.println(anotherStatement.getRecord());
+    }
+
+    private static void testDeepPrototype(){
+        Registry registry = new Registry();
+        Movie movie = (Movie) registry.createItem("Movie");
+        movie.setTitle("deep Prototype");
+
+        System.out.println(movie);
+        System.out.println(movie.getRuntime());
+        System.out.println(movie.getTitle());
+        System.out.println(movie.getUrl());
+
+        Movie anotherMovie = (Movie) registry.createItem("Movie");
+        anotherMovie.setTitle("Gang of four");
+
+        System.out.println(anotherMovie);
+        System.out.println(anotherMovie.getRuntime());
+        System.out.println(anotherMovie.getTitle());
+        System.out.println(anotherMovie.getUrl());
     }
 
     public static void main (String[] args){

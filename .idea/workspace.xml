@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d092e7e-3eca-4f76-b3e5-5556985638db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/shallow/Statement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/deep/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/deep/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/deep/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/deep/Registry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/prototype/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prototype/shallow/Record.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/prototype/shallow/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prototype/shallow/Statement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586786651850</updated>
       <workItem from="1586786654681" duration="4269000" />
-      <workItem from="1586836902492" duration="1376000" />
+      <workItem from="1586836902492" duration="4316000" />
     </task>
     <task id="LOCAL-00001" summary="builder pattern">
       <created>1586836937954</created>
@@ -84,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586836937954</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="shallow prototype">
+      <created>1586839785275</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586839785275</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,20 +103,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="builder pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder pattern" />
+    <MESSAGE value="shallow prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="shallow prototype" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="144" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1586837177351">
+    <state x="144" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1586841756931">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="144" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1586837177351" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586836937145">
+    <state x="144" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1586841756931" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586839784645">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586836937145" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586839784645" />
     <state x="649" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1586836902512">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="649" y="350" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586836902512" />
+    <state x="651" y="177" key="run.anything.popup" timestamp="1586843351065">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="651" y="177" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1586843351065" />
   </component>
 </project>
