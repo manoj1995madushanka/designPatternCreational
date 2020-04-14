@@ -1,3 +1,6 @@
+import abstractFactory.creditCardSelector.CardType;
+import abstractFactory.creditCardSelector.CreditCard;
+import abstractFactory.creditCardSelector.CreditCardFactory;
 import builder.Builder;
 import builder.LunchOrder;
 import factoryMethod.contactPage.Website;
@@ -66,6 +69,15 @@ public class Main {
         System.out.println(website.getPages());
         website = WebsiteFactory.getWebsite(WebsiteType.SHOP);
         System.out.println(website.getPages());
+    }
+
+    private static void abstractFactoryTest(){
+        CreditCardFactory abstractFactory = CreditCardFactory.getCreditCardFactory(775);
+        CreditCard card = abstractFactory.getCreditCard(CardType.PLATINUM);
+        System.out.println(card.getClass());
+        abstractFactory = CreditCardFactory.getCreditCardFactory(600);
+        CreditCard card2 = abstractFactory.getCreditCard(CardType.GOLD);
+        System.out.println(card2.getClass());
     }
 
     public static void main (String[] args){
