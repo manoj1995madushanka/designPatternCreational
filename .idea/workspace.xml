@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d092e7e-3eca-4f76-b3e5-5556985638db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/RuntimeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/databaseExample/DbSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/databaseExample/DbSingletonDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -53,6 +50,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="singleton" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DesignPatternsCreational\src\main\java\singleton" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -78,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586786651850</updated>
       <workItem from="1586786654681" duration="4269000" />
-      <workItem from="1586836902492" duration="12986000" />
+      <workItem from="1586836902492" duration="14411000" />
     </task>
     <task id="LOCAL-00001" summary="builder pattern">
       <created>1586836937954</created>
@@ -122,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586861538070</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="singleton pattern">
+      <created>1586861821582</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586861821582</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +147,8 @@
     <MESSAGE value="factory pattern" />
     <MESSAGE value="abstract factory pattern using DocumentBuilderFactory" />
     <MESSAGE value="abstract factory pattern using credit card example" />
-    <option name="LAST_COMMIT_MESSAGE" value="abstract factory pattern using credit card example" />
+    <MESSAGE value="singleton pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="singleton pattern" />
   </component>
   <component name="WindowStateProjectService">
     <state x="144" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1586857964748">
@@ -146,10 +159,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="672" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1586858410252" />
-    <state x="385" y="0" key="CommitChangelistDialog2" timestamp="1586861537451">
+    <state x="385" y="0" key="CommitChangelistDialog2" timestamp="1586861821070">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="385" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586861537451" />
+    <state x="385" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586861821070" />
     <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1586861789869">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -166,14 +179,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586861789869" />
-    <state x="213" y="24" key="Maven.ArtifactSearchDialog" timestamp="1586861678531">
+    <state x="213" y="24" key="Maven.ArtifactSearchDialog" timestamp="1586861988667">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="213" y="24" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1586861678531" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586861540503">
+    <state x="213" y="24" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1586861988667" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586861823116">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586861540503" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586861823116" />
     <state x="649" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1586836902512">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
